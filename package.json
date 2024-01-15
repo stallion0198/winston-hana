@@ -1,0 +1,43 @@
+{
+  "name": "winston-hana",
+  "version": "1.0.0",
+  "description": "SAP HANA transport plugin for winston@3.x logger",
+  "main": "./lib/hana_transport.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --timeout 20000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stallion0198/winston-hana.git"
+  },
+  "keywords": [
+    "SAP",
+    "HANA",
+    "transport",
+    "plugin",
+    "winston",
+    "logger"
+  ],
+  "author": "Sehoon Jeong <stallion0198@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stallion0198/winston-hana/issues"
+  },
+  "homepage": "https://github.com/stallion0198/winston-hana#readme",
+  "devDependencies": {
+    "@sap/cds": "~7.x",
+    "assert": "*",
+    "chai": "~4.x",
+    "mocha": "~10.x",
+    "util": "*",
+    "winston": "~3.x"
+  },
+  "dependencies": {
+    "@sap/hana-client": "~2.x",
+    "winston-transport": "~4.x"
+  }
+}
